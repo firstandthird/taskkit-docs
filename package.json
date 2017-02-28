@@ -1,0 +1,40 @@
+{
+  "name": "taskkit-docs",
+  "version": "0.0.1",
+  "description": "Turn markdown into html",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node test/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/taskkit-docs.git"
+  },
+  "keywords": [
+    "markdown",
+    "docs",
+    "taskkit"
+  ],
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/taskkit-docs/issues"
+  },
+  "homepage": "https://github.com/firstandthird/taskkit-docs#readme",
+  "dependencies": {
+    "async": "2.1.5",
+    "glob": "7.1.1",
+    "highlight.js": "9.9.0",
+    "markdown-it": "8.3.0",
+    "taskkit-task": "0.0.14"
+  },
+  "devDependencies": {
+    "eslint": "3.16.1",
+    "eslint-config-firstandthird": "3.3.0",
+    "eslint-plugin-import": "2.2.0"
+  },
+  "eslintConfig": {
+    "extends": "firstandthird"
+  }
+}
